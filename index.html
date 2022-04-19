@@ -18,33 +18,26 @@
 <body>
 
   <div class="card">
-    <span class="star-icon"><svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
-      <path d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 
-      0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 
-      0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z" fill="#FC7614"/></svg>
-    </span>
+    <span class="star-icon"><img src="./images/icon-star.svg" alt="star-icon"></span>
     <h1 class="card-title">How did we do?</h1>
     <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated 
       to help us improve our offering!</p>
-    12345
-    <button>SUBMIT</button>
+    <form action="">
+      <fieldset class="rates-group">
+        <input type="button" role="radio" class="btn rate-btn" id="rating-1" value="1" aria-label="Rating 1 out of 5" aria-checked="false">
+        <input type="button" role="radio" class="btn rate-btn" id="rating-2" value="2" aria-label="Rating 2 out of 5" aria-checked="false">
+        <input type="button" role="radio" class="btn rate-btn" id="rating-3" value="3" aria-label="Rating 3 out of 5" aria-checked="false">
+        <input type="button" role="radio" class="btn rate-btn" id="rating-4" value="4" aria-label="Rating 4 out of 5" aria-checked="false">
+        <input type="button" role="radio" class="btn rate-btn" id="rating-5" value="5" aria-label="Rating 5 out of 5" aria-checked="false">
+      </fieldset>
+      <button class="submit-btn">SUBMIT</button>
+    </form>
   </div>
-
-  <!-- Thank you state start -->
-
-  <!-- You selected Add rating here  out of 5 
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
- Thank you state end -->
-
   
   <!--<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Manuel Gil</a>.
   </div>-->
+  <script src="main.js"></script>
 </body>
 </html>

@@ -12,13 +12,18 @@ body {
     margin: auto;
     padding: 2rem;
     border-radius: 25px;
-    width: 18%;
+    width: 100%;
+    max-width: 21em;
+}
+
+.card--hidden {
+    display: none;
 }
 
 .star-icon {
     background-color: hsl(216, 12%, 22%);
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,9 +31,11 @@ body {
 }
 
 .card-title {
-    font-size: 30px;
+    font-size: 1.75em;
     font-weight: 700;
     font-family: 'Overpass', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 .card-text{
@@ -39,12 +46,52 @@ body {
     color: hsl(217, 12%, 63%);
 }
 
-button {
+fieldset {
+	border: none;
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.rates-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+	font-family: 'Overpass', sans-serif;
+	font-size: 1rem;
+	text-transform: uppercase;
+	border: none;
+	background: none;
+	cursor: pointer;
+	transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.rate-btn {
+    width: clamp(2.8rem, 11vw, 3.2rem);
+    aspect-ratio: 1;
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.1);
+}
+
+.rate-btn:hover {
+    background-color:hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.rate-btn--checked {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+
+.submit-btn {
     background-color: hsl(25, 97%, 53%);
     display: block;
     border: none;
     color:hsl(0, 0%, 100%);
-    padding: 0.6rem;
+    padding: 0.8rem;
     width: 100%;
     margin-top: 2rem;
     cursor: pointer;
@@ -52,7 +99,7 @@ button {
     letter-spacing: 0.1rem;
 }
 
-button:hover{
+.submit-btn:hover{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
 }
