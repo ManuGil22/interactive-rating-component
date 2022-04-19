@@ -39,6 +39,23 @@ body {
     color: hsl(217, 12%, 63%);
 }
 
+button {
+    background-color: hsl(25, 97%, 53%);
+    display: block;
+    border: none;
+    color:hsl(0, 0%, 100%);
+    padding: 0.6rem;
+    width: 100%;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 2em;
+    letter-spacing: 0.1rem;
+}
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
