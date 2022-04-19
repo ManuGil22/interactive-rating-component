@@ -1,0 +1,49 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    height: 98.4vh;
+    width: 98.5vw;
+}
+
+.card {
+    background-color: hsl(213, 19%, 18%);
+    margin: auto;
+    padding: 2rem;
+    border-radius: 25px;
+    width: 18%;
+}
+
+.star-icon {
+    background-color: hsl(216, 12%, 22%);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+}
+
+.card-text{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5rem;
+    color: hsl(217, 12%, 63%);
+}
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
