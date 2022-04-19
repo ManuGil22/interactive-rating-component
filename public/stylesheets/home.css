@@ -5,19 +5,17 @@ body {
     justify-content: center;
     height: 98.4vh;
     width: 98.5vw;
+    font-family: 'Overpass', sans-serif;
 }
 
 .card {
+    display: grid;
     background-color: hsl(213, 19%, 18%);
     margin: auto;
     padding: 2rem;
     border-radius: 25px;
     width: 100%;
     max-width: 21em;
-}
-
-.card--hidden {
-    display: none;
 }
 
 .star-icon {
@@ -33,7 +31,6 @@ body {
 .card-title {
     font-size: 1.75em;
     font-weight: 700;
-    font-family: 'Overpass', sans-serif;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
@@ -41,7 +38,6 @@ body {
 .card-text{
     font-size: 15px;
     font-weight: 400;
-    font-family: 'Overpass', sans-serif;
     line-height: 1.5rem;
     color: hsl(217, 12%, 63%);
 }
@@ -59,7 +55,6 @@ fieldset {
 }
 
 .btn {
-	font-family: 'Overpass', sans-serif;
 	font-size: 1rem;
 	text-transform: uppercase;
 	border: none;
@@ -110,4 +105,23 @@ fieldset {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+.thank-you {
+    text-align: center;
+    place-items: center;
+    padding-block: clamp(2em, 10vw, 2.75em);
+}
+
+.summary {
+    background-color: hsl(216, 12%, 22%);
+    color:hsl(25, 97%, 53%);
+    margin-top: 1.2rem;
+    border-radius: 2rem;
+    padding: 0.2rem;
+    width: 60%;
+}
+
+.card--hidden {
+    display: none;
 }
