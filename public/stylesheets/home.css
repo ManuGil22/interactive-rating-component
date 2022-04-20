@@ -15,7 +15,7 @@ body {
     padding: 2rem;
     border-radius: 25px;
     width: 100%;
-    max-width: 21em;
+    max-width: 22em;
 }
 
 .star-icon {
@@ -99,14 +99,6 @@ fieldset {
     color: hsl(25, 97%, 53%);
 }
 
-.attribution { 
-    font-size: 11px; text-align: center; 
-}
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
-}
-
 .thank-you {
     text-align: center;
     place-items: center;
@@ -124,4 +116,27 @@ fieldset {
 
 .card--hidden {
     display: none;
+}
+
+@media (max-width: 445px) {
+    .card {
+        width: 75%;
+    }
+    .summary {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 345px) {
+    .summary {
+        width: 70%;
+    }
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
 }
