@@ -53,6 +53,5 @@ Users should be able to:
 
 ## Author
 
-- GitHub - [@ManuGil22](https://github.com/ManuGil22)
 - Frontend Mentor - [@ManuGil22](https://www.frontendmentor.io/profile/ManuGil22)
 
