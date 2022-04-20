@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="public/stylesheets/home.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="public/stylesheets/home.css">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
   
-  <title>Frontend Mentor | Interactive rating component</title>
+    <title>Frontend Mentor | Interactive rating component</title>
 
-</head>
-<body>
-  <main>
-  <div class="card rating">
-    <span class="star-icon"><img src="./images/icon-star.svg" alt="star-icon"></span>
-    <h1 class="card-title">How did we do?</h1>
-    <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated 
-      to help us improve our offering!</p>
-    <form>
-      <fieldset class="rates-group">
-        <input type="button" role="radio" class="btn rate-btn" id="rating-1" value="1" aria-label="Rating 1 out of 5" aria-checked="false">
-        <input type="button" role="radio" class="btn rate-btn" id="rating-2" value="2" aria-label="Rating 2 out of 5" aria-checked="false">
-        <input type="button" role="radio" class="btn rate-btn" id="rating-3" value="3" aria-label="Rating 3 out of 5" aria-checked="false">
-        <input type="button" role="radio" class="btn rate-btn" id="rating-4" value="4" aria-label="Rating 4 out of 5" aria-checked="false">
-        <input type="button" role="radio" class="btn rate-btn" id="rating-5" value="5" aria-label="Rating 5 out of 5" aria-checked="false">
-      </fieldset>
-      <button type="submit" class="submit-btn">SUBMIT</button>
-    </form>
-  </div>
+  </head>
+  <body>
+    <main role="main">
+    <div class="card rating">
+      <span class="star-icon"><img src="./images/icon-star.svg" alt="star-icon"></span>
+      <h1 class="card-title">How did we do?</h1>
+      <p class="card-text">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+      <form>
+        <fieldset class="rates-group">
+          <input type="button" role="radio" class="btn rate-btn" id="rating-1" value="1" aria-label="Rating 1 out of 5" aria-checked="false">
+          <input type="button" role="radio" class="btn rate-btn" id="rating-2" value="2" aria-label="Rating 2 out of 5" aria-checked="false">
+          <input type="button" role="radio" class="btn rate-btn" id="rating-3" value="3" aria-label="Rating 3 out of 5" aria-checked="false">
+          <input type="button" role="radio" class="btn rate-btn" id="rating-4" value="4" aria-label="Rating 4 out of 5" aria-checked="false">
+          <input type="button" role="radio" class="btn rate-btn" id="rating-5" value="5" aria-label="Rating 5 out of 5" aria-checked="false">
+        </fieldset>
+        <button type="submit" class="submit-btn">SUBMIT</button>
+      </form>
+    </div>
 
-  <div class="card card--hidden thank-you">
-    <span class="ty-icon"><img src="./images/illustration-thank-you.svg" alt="thanks-icon"></span>
-    <div class="summary">You selected <span class="end-rating"></span> out of 5</div>
-    <h1 class="card-title">Thank you!</h1>
-    <p class="card-text">We appreciate you taking the time to give a rating. If you ever need more support, 
-      don’t hesitate to get in touch!</p>
-  </div>
+    <div class="card card--hidden thank-you">
+      <span class="ty-icon"><img src="./images/illustration-thank-you.svg" alt="thanks-icon"></span>
+      <div class="summary">You selected <span class="end-rating"></span> out of 5</div>
+      <h1 class="card-title">Thank you!</h1>
+      <p class="card-text">We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
 
-  <script src="main.js"></script>
-  </main> 
-</body>
+    <script src="main.js"></script>
+    </main> 
+  </body>
 </html>
